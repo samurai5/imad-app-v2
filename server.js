@@ -5,12 +5,12 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-app.get('article-one',function(req,res){
-    res.send("Article one is requested and will be served soon");
+app.get('/article-one',function(req,res){
+    res.send("rticle one is requested and will be served soon");
 })
 
 app.get('article-two',function(req,res){
-    res.send("Article two is requested and will be served soon");
+    res.send('Article two is requested and will be served soon');
 })
 
 app.get('article-three',function(req,res){
