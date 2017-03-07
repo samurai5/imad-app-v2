@@ -23,8 +23,8 @@ content:`<p>This is first article This is first article This is first article Th
 
 function createTemplate(data){
    var title=data.title;
-   var heading= data.heading;
-   var date=data.date;
+   var heading= data.Heading;
+   var date=data.Date;
    var content=data.content;
     
 
@@ -46,7 +46,8 @@ var htmlTemplate =`
         </div>
         
         <div>
-        <h3>${heading}</h3>
+        <h3>${heading}
+        </h3>
         </div>
         
         <div${date}</div>
